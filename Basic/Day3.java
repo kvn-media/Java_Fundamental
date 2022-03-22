@@ -3,6 +3,16 @@ package Basic;
 import java.util.Scanner;
 
 public class Day3 {
+    // method -> mengelompokan setiap baris kode sesuai tugasnya masing"
+    // di deskripsikan dengan kata kerja -> verb
+    // penulisan ( naming convension ) method
+    // camelCase
+    // 1. public -> access modifier
+    // 2. static
+    // 3. void -> tidal mengembalikan nilai ( return type )
+    // 4. nama method
+    // 5. args -> parameter
+//    static String nama = "enigma";
     public static void main(String[] args) {
         // scanner
         // instance -> Scanner library membantu untuk melakukan input melalui terminal
@@ -60,7 +70,7 @@ public class Day3 {
 //        }while (number < 5);
         // array
         // kumpulan data, array di java itu fix length
-//        String[] spearhead = {"Theo", "Anju", "Kurena", "Shin"};
+//        String[] spearhead = {"Theo", "Anju", "Kurena", "Shin", "Raiden"};
 //        // re-assign
 //        spearhead[0] = "Shin";
 //        // foreach
@@ -81,17 +91,36 @@ public class Day3 {
 //        }
         // static method dan non static method
         // access modifier -> public, private, protected, default
-        // static method -> apabila kita ingin menggunakan sebuah method yang static itu
+        // static method -> apabila kita ingin menggunakan sebuah method yang static itu tidak perlu instance atau new
         // non-static -> kita perlu instance terlebih dahulu
         // kita tidak perlu melakukan instance dengan keyword new
         // return type -> balikan sebuah nilai
         // nama method
-        Day3 day3 = new Day3();
-        day3.greeting();
+//        Day3 day3 = new Day3();
+//        day3.greeting();
+
+
+//    // method
+//    public void greeting() {
+//        System.out.println("hello");
+        String nama = "enigma";
+//        greeting(nama);
+//        System.out.println(sum(2, 3));
+//        int resultSum = sum(2, 3);
+//        multiply(resultSum);
+//        System.out.println(nama);
     }
 
-    // method
-    public void greeting() {
-        System.out.println("hello");
-    }
+//    public static void greeting(String nama) {
+//        System.out.println("hello" + nama);
+//    }
+//
+//    public static int sum(int num1, int num2) {
+////        System.out.println(num1 + num2);
+//        return num1 + num2;
+//    }
+//
+//    public static void multiply(int angka) {
+//        System.out.println(angka * 2);
+//    }
 }
