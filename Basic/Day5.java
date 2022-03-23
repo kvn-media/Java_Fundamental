@@ -1,0 +1,33 @@
+package Basic;
+
+import Basic.entity.Balok;
+import Basic.entity.Heroes;
+import Basic.entity.Rectangle;
+
+public class Day5 {
+    public static void main(String[] args) {
+
+        Rectangle rect = new Rectangle(2.0, 2.0);
+//        Heroes gatotKaca = new Heroes(1000, 500, 20);
+//        Heroes saitama = new Heroes(1000, 500, 50);
+//
+//        saitama.attack(gatotKaca);
+//        System.out.println(gatotKaca.toString());
+//        System.out.println(saitama.toString());
+
+        // abstractions -> class yang masih dalam bentuk abstrak ( belum jelas )
+        // abstractions -> tidak bisa dibuat langsung menjadi sebuah objek
+        // abstract method -> agar tidak di sebuah sebut abstract dia harus memiliki setidaknya 1 atau lebih method abstrak
+        // abstract method -> method yang tidak memiliki implementasi / tidak ada bentuk yang jelas ( konkrit )
+        // inheritance -> pewarisan bisa sifat maupun atribut
+        // inheritance -> kelas utama adalah parent kelas turunan adalah ( subclass )
+        // extends -> keyword harus perlu kita tambahkan pada definisi class yang menjadi subclass
+        // @override -> mendefinisikan ulang method dari method parent class
+        // @override -> sama dengan method utama maupun isi dari parameter
+//        Balok balok = new Balok(2.0, 2.0, 2.0);
+//        System.out.println(balok.getVolume());
+//        System.out.println(balok.getSurface());
+//        balok.getVolume();
+
+    }
+}
