@@ -1,5 +1,3 @@
-package Basic;
-
 public class MyFirstJava{
 	public static void main(String []args) {
 //		byte numberByte = 127;

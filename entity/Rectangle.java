@@ -1,6 +1,4 @@
-package Basic.entity;
-
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
 
     protected Double length;
     protected Double width;

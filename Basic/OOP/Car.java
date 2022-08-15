@@ -1,4 +1,4 @@
-package Basic.OOP;
+package OOP;
 
 public class Car {
     // attribute

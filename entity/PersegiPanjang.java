@@ -1,5 +1,3 @@
-package Basic.entity;
-
 // parent
 public class PersegiPanjang {
     protected Double length;

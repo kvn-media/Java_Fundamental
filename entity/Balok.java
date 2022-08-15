@@ -1,5 +1,3 @@
-package Basic.entity;
-
 // child
 public class Balok extends PersegiPanjang {
     private Double height;

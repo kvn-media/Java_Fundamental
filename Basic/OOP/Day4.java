@@ -1,4 +1,4 @@
-package Basic.OOP;
+package OOP;
 
 public class Day4 {
     // OOP -> suatu pemprograman berorientasi kepada objek
@@ -7,7 +7,7 @@ public class Day4 {
     public static void main(String[] args) {
         // untuk membuat sebuah objek kita panggil class nya
         // membuat objek dengan keyword new
-        Car sedan = new Car("biru", "toyota", "corolla all new ae112");
+        OOP.Car sedan = new OOP.Car("biru", "toyota", "corolla all new ae112");
 //        sedan.color = "biru";
 //        sedan.brand = "toyota";
 //        sedan.type = "corolla all new ae112";
